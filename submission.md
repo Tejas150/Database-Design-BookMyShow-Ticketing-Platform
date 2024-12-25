@@ -21,6 +21,8 @@ This document provides the database design and SQL solutions for the BookMyShow 
 | Movie   | Movie ID (Primary Key), Title, Language, Format                                        |
 | Show    | Show ID (Primary Key), Theatre ID (FK), Movie ID (FK), Date, Time, Screen, Ticket Type |
 
+### Entity Relationship Diagram
+![image](https://github.com/user-attachments/assets/0d9c5230-93d8-4249-b188-16b8e0a0bf94)
 
 ---
 
