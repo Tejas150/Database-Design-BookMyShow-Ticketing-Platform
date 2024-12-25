@@ -1,4 +1,4 @@
-# Submission: BookMyShow Ticketing Platform
+# Submission: BookMyShow Ticketing Platform Assignment
 
 ## Overview
 
