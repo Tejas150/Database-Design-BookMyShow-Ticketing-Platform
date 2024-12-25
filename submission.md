@@ -4,7 +4,7 @@
 
 This document provides the database design and SQL solutions for the BookMyShow Ticketing Platform assignment. It includes:
 
-- Identification of entities and attributes
+- Entities and attributes
 - Table structures (normalized to 1NF, 2NF, 3NF, BCNF)
 - SQL queries to create tables and insert sample data
 - A query to fetch shows and timings for a given date and theatre
