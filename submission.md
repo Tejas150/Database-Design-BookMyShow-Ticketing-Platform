@@ -72,7 +72,7 @@ VALUES
 #### **Show Table**
 
 ```sql
-CREATE TABLE Show (
+CREATE TABLE `Show` (
     ShowID INT PRIMARY KEY,
     TheatreID INT,
     MovieID INT,
@@ -88,7 +88,7 @@ CREATE TABLE Show (
 #### Sample Data for Show Table
 
 ```sql
-INSERT INTO Show (ShowID, TheatreID, MovieID, ShowDate, ShowTime, Screen, TicketType)
+INSERT INTO `Show` (ShowID, TheatreID, MovieID, ShowDate, ShowTime, Screen, TicketType)
 VALUES
 (1, 1, 1, '2024-04-25', '12:10:00', 'Screen 1', '2D'),
 (2, 1, 2, '2024-04-25', '16:10:00', 'Screen 2', '4K Dolby'),
@@ -113,7 +113,7 @@ SELECT
     Show.Screen,
     Show.TicketType
 FROM
-    Show
+    `Show`
 JOIN
     Movie ON Show.MovieID = Movie.MovieID
 JOIN
